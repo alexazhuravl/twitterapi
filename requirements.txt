@@ -1,0 +1,6 @@
+oauth2
+tweepy
+flask
+flask_restful
+python-arango
+pyArango
