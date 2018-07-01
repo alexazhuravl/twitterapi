@@ -24,10 +24,10 @@ sudo docker run -p 5000:5000 -ti -e DBIP=172.17.0.2 -e DBPORT=8529 -e DBUSER=roo
 ```
 6. URLs (example):
 ```
-http://172.17.0.3:5000/proximity/775609441/823275528
-http://172.17.0.3:5000/friendship/775609441/823275528
+http://172.17.0.3:5000/proximity/user_id_0/user_id_1
+http://172.17.0.3:5000/friendship/user_id_0/user_id_1
 ```
 7. Curl request (optional):
 ```
-curl -X GET -d "user_a=775609441&user_b=171407697" appIP:PORT/friendship
+curl -X GET -d "user_a=user_id_0&user_b=user_id_1" appIP:PORT/friendship
 ```
