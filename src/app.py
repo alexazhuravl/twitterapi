@@ -32,13 +32,10 @@ app = Flask(__name__)
 flaskapi = Api(app)
 parser = reqparse.RequestParser()
 
-CONSUMER_KEY = "xvOUDaecvfaLX5RIKBDb0gG2f"
-CONSUMER_SECRET = "6n3OiyosXkcJAyd1Dttv1A78Sb8AxSL1ExsmJEz9P6GreGdufa"
-ACCESS_TOKEN = "171407697-fLyfYMWthQlbrb99GoPyOS3a8Z3GZdw0kmVs6Ocl"
-ACCESS_SECRET = "18q0cl6VMfRzmXwKfy9KOoteuwcoei27A0VyWWYlzXXVk"
-
-#sashaid = 775609441
-#rodionid = 171407697
+CONSUMER_KEY = "consumer key"
+CONSUMER_SECRET = "consumer secret"
+ACCESS_TOKEN = "token"
+ACCESS_SECRET = "secret"
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
